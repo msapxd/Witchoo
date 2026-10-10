@@ -6,7 +6,9 @@ public class menu : MonoBehaviour
     public Animator fadeAnimator;
     public void StartGame()
     {
-         SceneManager.LoadScene("SampleScene"); 
+        fadeAnimator.Play("fadeOutToBlack");
+        StartCoroutine(SwitchSceneAfterDelayPlay());
+
     }
 
     public void QuitGame()
@@ -18,14 +20,19 @@ public class menu : MonoBehaviour
     public void MainMenu()
     {
         fadeAnimator.Play("fadeOutToBlack");
-        StartCoroutine(SwitchSceneAfterDelay());
+        StartCoroutine(SwitchSceneAfterDelayMenu());
     }
 
 
-    private IEnumerator SwitchSceneAfterDelay()
+    private IEnumerator SwitchSceneAfterDelayMenu()
     {
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene("mainMenu");
+    }
+        private IEnumerator SwitchSceneAfterDelayPlay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("SampleScene"); 
     }
 
 }
