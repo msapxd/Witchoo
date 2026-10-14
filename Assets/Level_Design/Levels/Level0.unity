@@ -246,7 +246,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -997047915
+  m_SortingLayerID: 1794205993
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -2211,8 +2211,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -500265747
-  m_SortingLayer: 4
+  m_SortingLayerID: 1637800547
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3385,8 +3385,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1434579199
-  m_SortingLayer: 7
+  m_SortingLayerID: -965485949
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3451,11 +3451,15 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1c1a709fadb5338409dc96da763dc2fc, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 3fd14d4146f97414c9e829176b70d923, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: -1830070650, guid: c6a9bcc5306b6a04bbe33378ef522869, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 4730907938173302739, guid: c6a9bcc5306b6a04bbe33378ef522869, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 2
     m_Data:
@@ -3501,6 +3505,24 @@ Tilemap:
       e03: 0
       e10: 0
       e11: -1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  - m_RefCount: 0
+    m_Data:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
       e12: 0
       e13: 0
       e20: 0
@@ -3711,8 +3733,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -565661741
-  m_SortingLayer: 5
+  m_SortingLayerID: -302953219
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -3958,8 +3980,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 2075412975
-  m_SortingLayer: 3
+  m_SortingLayerID: -1768105831
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3992,7 +4014,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4002,7 +4024,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4022,7 +4044,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4209,18 +4231,18 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 16
     m_Data: {fileID: -2084324787, guid: 29726fc3eeffc3544b05aea40b48f81b, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1709430587, guid: 11c6ed08797d25c409c0e0d2841a6b57, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1027708398, guid: 11c6ed08797d25c409c0e0d2841a6b57, type: 3}
+    m_Data: {fileID: -1217383238, guid: 11c6ed08797d25c409c0e0d2841a6b57, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -410970641, guid: 11c6ed08797d25c409c0e0d2841a6b57, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -1217383238, guid: 11c6ed08797d25c409c0e0d2841a6b57, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+    m_Data: {fileID: -1027708398, guid: 11c6ed08797d25c409c0e0d2841a6b57, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -4871644234308700824, guid: c6a9bcc5306b6a04bbe33378ef522869, type: 3}
   m_TileMatrixArray:
@@ -4347,7 +4369,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1164851073
+  m_SortingLayerID: 1383057175
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
