@@ -29,10 +29,10 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("IsWalking", false);
             animator.SetFloat("LastInputX", moveInput.x);
-            animator.SetFloat("LastInputy", moveInput.y);
+            animator.SetFloat("LastInputY", moveInput.y);
         }
         moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("InputX", moveInput.x);
-        animator.SetFloat("Inputy", moveInput.y);
+        animator.SetFloat("InputY", moveInput.y);
     }
 }
