@@ -38,6 +38,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     public virtual void Die()
     {
         // Later, LevelManager will handle game over.
+        animator?.SetBool("IsDead", true);
         Debug.Log("game over");
     }
 
