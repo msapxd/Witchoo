@@ -9,9 +9,10 @@ public class Bat : PlayableCharacter
 
     public override void ApplyDamage(IDamageable damageable)
     {
-        //if (damageable is StringLights)
-        //{
+        if (damageable is StringLights)
+        {
             damageable.TakeDamage(1);
-        //}
+            animator.SetBool("IsAttacking", true);
+        }
     }
 }

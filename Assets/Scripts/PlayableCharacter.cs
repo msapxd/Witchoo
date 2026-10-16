@@ -17,10 +17,8 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
     public abstract void SpecialAbility();
 
-    public virtual void ApplyDamage(IDamageable damageable)
-{
-    damageable.TakeDamage(1);
-}
+    public abstract void ApplyDamage(IDamageable damageable);
+
 
     public virtual void TakeDamage(int howMuch)
     {
@@ -40,6 +38,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     public virtual void Die()
     {
         // Later, LevelManager will handle game over.
+        Debug.Log("game over");
     }
 
     public Animator GetAnimator()

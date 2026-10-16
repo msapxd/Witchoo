@@ -9,9 +9,10 @@ public class Cat : PlayableCharacter
 
     public override void ApplyDamage(IDamageable damageable)
     {
-        //if (damageable is Pumpkin)
-       // {
-        damageable.TakeDamage(1);
-       // }
+        if (damageable is Pumpkin)
+       {
+            damageable.TakeDamage(1);
+            animator.SetBool("IsAttacking", true);
+       }
     }
 }

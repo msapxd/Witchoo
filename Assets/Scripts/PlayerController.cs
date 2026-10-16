@@ -1,4 +1,5 @@
 
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.TextCore.Text;
@@ -55,9 +56,17 @@ public class PlayerController : MonoBehaviour
             if (PlayerData.currentHealth < PlayerData.maxHealth)
             {
                 PlayerData.currentHealth++;
-                healthView.UpdateHealth();
                 Destroy(other.gameObject);
             }
         }
+
+        TrapAbstract trapAbstract = other.GetComponent<TrapAbstract>();
+        if (trapAbstract != null)
+        {
+            characters[currentCharacter].ApplyDamage(trapAbstract);
+            trapAbstract.ApplyDamage(characters[currentCharacter]);
+        }
+
+        healthView.UpdateHealth();
     }
 }
