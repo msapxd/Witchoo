@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
 
 // Keep this struct outside the class so other scripts can use it
 [System.Serializable]
@@ -49,7 +50,11 @@ public class DialogueManager : MonoBehaviour
     {
         if (!dialogueBox.activeInHierarchy) return;
 
-        if(Input.anyKeyDown)
+        bool skipPressed = (Keyboard.current != null && Keyboard.current.anyKey.wasPressedThisFrame) ||
+                           (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame) ||
+                           (Gamepad.current != null && Gamepad.current.buttonSouth.wasPressedThisFrame);
+
+        if (skipPressed)
         {
             if (isTyping)
             {
@@ -67,11 +72,11 @@ public class DialogueManager : MonoBehaviour
                 else
                 {
                     dialogueBox.SetActive(false);
-                    Debug.Log("Dialogue finished!");
+                    isActive = false;
                 }
             }
         }
-    }
+}
 
     // Other scripts will call this function to pass in their specific lines
     public void StartDialogue(DialogueLine[] lines, Animator speakerAnimator = null)

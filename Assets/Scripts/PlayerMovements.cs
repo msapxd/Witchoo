@@ -3,22 +3,31 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-
     [SerializeField] private float moveSpeed = 5f;
-    private Rigidbody2D rb; //rigidbody
+    private Rigidbody2D rb;
     private Vector2 moveInput;
     [SerializeField] private Animator animator;
+    private Vector3 baseScale;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
+        rb = GetComponent<Rigidbody2D>();
+
+        baseScale = transform.localScale;
     }
 
-    // Update is called once per frame
     void Update()
     {
         rb.linearVelocity = moveInput * moveSpeed;
+
+        if (moveInput.x < 0)
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(baseScale.x), baseScale.y, baseScale.z);
+        }
+        else if (moveInput.x > 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(baseScale.x), baseScale.y, baseScale.z);
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
@@ -35,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("InputY", moveInput.y);
     }
 
-    public void SetAnimator (Animator newAnimator)
+    public void SetAnimator(Animator newAnimator)
     {
         animator = newAnimator;
     }
