@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 
 public abstract class PlayableCharacter : MonoBehaviour, IDamageable
@@ -7,6 +8,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
     public int maxHealth => PlayerData.maxHealth;
     public int currentHealth => PlayerData.currentHealth;
+    public Animator animator;
 
     public virtual void Movement()
     {
@@ -38,5 +40,10 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     public virtual void Die()
     {
         // Later, LevelManager will handle game over.
+    }
+
+    public Animator GetAnimator()
+    {
+        return animator;
     }
 }
