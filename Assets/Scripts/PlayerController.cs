@@ -40,8 +40,11 @@ public class PlayerController : MonoBehaviour
     {
         for (int i = 0; i < characters.Length; i++)
         {
-            playerMovement.SetAnimator(characters[i].GetAnimator());
             characters[i].gameObject.SetActive(i == characterIndex);
+            if (i == characterIndex)
+            {
+                playerMovement.SetAnimator(characters[i].GetAnimator());
+            }
         }
     }
 
