@@ -8,7 +8,7 @@ public class Vines : TrapAbstract
         if (damageable is not Witch)
         {
             damageable.TakeDamage(1);
-            animator.SetBool("IsAttacking", true);
+            animator?.SetBool("IsAttacking", true);
         }
     }
 }

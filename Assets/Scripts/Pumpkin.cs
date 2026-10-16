@@ -7,7 +7,7 @@ public class Pumpkin : TrapAbstract
         if (damageable is not Cat)
         {
             damageable.TakeDamage(1);
-            animator.SetBool("IsAttacking", true);
+            animator?.SetBool("IsAttacking", true);
         }
     }
 }

@@ -4,7 +4,7 @@ public class Cat : PlayableCharacter
 {
     public override void SpecialAbility()
     {
-        Debug.Log("Cat lights up the pumpkin!");
+        
     }
 
     public override void ApplyDamage(IDamageable damageable)
@@ -12,7 +12,8 @@ public class Cat : PlayableCharacter
         if (damageable is Pumpkin)
        {
             damageable.TakeDamage(1);
-            animator.SetBool("IsAttacking", true);
+            animator?.SetBool("IsAttacking", true);
+            Debug.Log("Cat lights up the pumpkin!");
        }
     }
 }

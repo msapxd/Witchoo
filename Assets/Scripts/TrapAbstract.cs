@@ -27,7 +27,7 @@ public abstract class TrapAbstract : MonoBehaviour, IDamageable
 
     public void AnimateDeath()
     {
-        animator.SetBool("IsDead", true);
+        animator?.SetBool("IsDead", true);
         //in animation, we need to hide the object
     }
 }

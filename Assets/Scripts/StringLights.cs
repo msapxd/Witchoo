@@ -7,7 +7,7 @@ public class StringLights : TrapAbstract
         if (damageable is not Bat)
         {
             damageable.TakeDamage(1);
-            animator.SetBool("IsAttacking", true);
+            animator?.SetBool("IsAttacking", true);
         }
     }
 }

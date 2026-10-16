@@ -4,7 +4,7 @@ public class Witch : PlayableCharacter
 {
    public override void SpecialAbility()
     {
-        Debug.Log("Witch uses magic!");
+        
     }
 
     public override void ApplyDamage(IDamageable damageable)
@@ -12,7 +12,8 @@ public class Witch : PlayableCharacter
         if (damageable is Vines)
        {
              damageable.TakeDamage(1);
-            animator.SetBool("IsAttacking", true);
+            animator?.SetBool("IsAttacking", true);
+            Debug.Log("Witch uses magic!");
        }
     }
 }
