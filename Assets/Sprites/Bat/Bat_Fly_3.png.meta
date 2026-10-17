@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4a34209482ccf4857acbd85d43797793
+guid: 237ade6577af742ecbf425dc23b158d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2803826560320009176
-    second: Bat_Fly_0_0
+      213: 7198074911359641801
+    second: Bat_Fly_3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat_Fly_0_0
+      name: Bat_Fly_3_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 10
-        width: 28
-        height: 37
+        x: 11
+        y: 1
+        width: 31
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d3fdabb66139e620800000000000000
-      internalID: 2803826560320009176
+      spriteID: 9c82e3eaef2b4e360800000000000000
+      internalID: 7198074911359641801
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bat_Fly_0_0: 2803826560320009176
+      Bat_Fly_3_0: 7198074911359641801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

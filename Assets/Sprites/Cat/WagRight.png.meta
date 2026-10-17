@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7b5113a54def74728b15fa59c0ccda71
+guid: 206fbf90e1e094e4cb66c9d9ff5056ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4638469612052289656
-    second: Bat_Fly_1_0
+      213: -1307540622422697419
+    second: WagRight_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat_Fly_1_0
+      name: WagRight_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 11
-        width: 31
-        height: 32
+        x: 1
+        y: 3
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87812d759872f5040800000000000000
-      internalID: 4638469612052289656
+      spriteID: 53a1a174bbeaadde0800000000000000
+      internalID: -1307540622422697419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WagRight_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65bda7ddeda37543af56f3379a5ee77
+      internalID: 232541554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WagRight_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d908f824d29792c47909d883c03f5a62
+      internalID: -1562560453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WagRight_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf13cad29fa3f04b94f7e9056172a79
+      internalID: 1589627313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WagRight_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c4cc8047dcf054a90dbd4233b5c930
+      internalID: -219175073
       vertices: []
       indices: 
       edges: []
@@ -125,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f717beb14cd49694ea1ca67b09232c35
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +223,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bat_Fly_1_0: 4638469612052289656
+      WagRight_0: -1307540622422697419
+      WagRight_1: 232541554
+      WagRight_2: -1562560453
+      WagRight_3: 1589627313
+      WagRight_4: -219175073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 4c27719a80fcc471496967b92d7df1dd
+guid: 18db64f019bd73049891bc4a636ac61b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4864227450346574190
-    second: catBlackWalkingDown_0
-  - first:
-      213: -7327129239646801807
-    second: catBlackWalkingDown_1
-  - first:
-      213: -7731521521423481225
-    second: catBlackWalkingDown_2
-  - first:
-      213: -7272469578392077087
-    second: catBlackWalkingDown_3
-  - first:
-      213: 2140920705485459121
-    second: catBlackWalkingDown_4
-  - first:
-      213: 8498248309409199000
-    second: catBlackWalkingDown_5
+      213: -6187474943911498712
+    second: RunRight_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,133 +100,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: catBlackWalkingDown_0
+      name: RunRight_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 14
-        width: 25
-        height: 47
+        x: 1
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e619c942815318340800000000000000
-      internalID: 4864227450346574190
+      spriteID: 82c6687325ca12aa0800000000000000
+      internalID: -6187474943911498712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catBlackWalkingDown_1
+      name: RunRight_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 13
-        width: 25
-        height: 48
+        x: 0
+        y: 1
+        width: 63
+        height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 170797ff6cec05a90800000000000000
-      internalID: -7327129239646801807
+      spriteID: 1286cf5b8f58d4d4ab7b26edacfe3731
+      internalID: -1217124187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catBlackWalkingDown_2
+      name: RunRight_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 14
-        width: 25
-        height: 47
+        x: 65
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 776044eb32e14b490800000000000000
-      internalID: -7731521521423481225
+      spriteID: ffa17b612fc3d6f4ea4975665968c37e
+      internalID: -1726369966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catBlackWalkingDown_3
+      name: RunRight_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 14
-        width: 25
-        height: 47
+        x: 129
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ecfa1c137ff21b90800000000000000
-      internalID: -7272469578392077087
+      spriteID: a45323d2eb68ff04b86af2d1ddf910be
+      internalID: 1755910214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catBlackWalkingDown_4
+      name: RunRight_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 13
-        width: 25
-        height: 48
+        x: 193
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1be4dbed90416bd10800000000000000
-      internalID: 2140920705485459121
+      spriteID: 41b46c6e065939846bbe230ddb035173
+      internalID: -1781938041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: catBlackWalkingDown_5
+      name: RunRight_5
       rect:
         serializedVersion: 2
-        x: 329
-        y: 13
-        width: 25
-        height: 48
+        x: 257
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 893366fcfc7dfe570800000000000000
-      internalID: 8498248309409199000
+      spriteID: d141d37955120874fbf0a24d1e8b9f74
+      internalID: -824183738
       vertices: []
       indices: 
       edges: []
@@ -250,7 +235,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 58d2fead38db3d641860c07c5d9b86d0
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +245,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      catBlackWalkingDown_0: 4864227450346574190
-      catBlackWalkingDown_1: -7327129239646801807
-      catBlackWalkingDown_2: -7731521521423481225
-      catBlackWalkingDown_3: -7272469578392077087
-      catBlackWalkingDown_4: 2140920705485459121
-      catBlackWalkingDown_5: 8498248309409199000
+      RunRight_0: -6187474943911498712
+      RunRight_1: -1217124187
+      RunRight_2: -1726369966
+      RunRight_3: 1755910214
+      RunRight_4: -1781938041
+      RunRight_5: -824183738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
