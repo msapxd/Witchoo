@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f50b75dabb9a45f1905df6cf5d3c04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vines
-  animator: {fileID: 0}
+  animator: {fileID: 1262871399}
 --- !u!4 &1262871402
 Transform:
   m_ObjectHideFlags: 0
@@ -1570,7 +1570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6355bb93dc7034bbe926477d79774f48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StringLights
-  animator: {fileID: 0}
+  animator: {fileID: 1293784333}
 --- !u!4 &1293784336
 Transform:
   m_ObjectHideFlags: 0
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2dc8caaf20124fedbb463d093585b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pumpkin
-  animator: {fileID: 0}
+  animator: {fileID: 1441143439}
 --- !u!4 &1441143442
 Transform:
   m_ObjectHideFlags: 0
