@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 {
+    public  LevelManager levelManager;
     public int speed = 5;
 
     public int maxHealth => PlayerData.maxHealth;
@@ -39,7 +40,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
     {
         // Later, LevelManager will handle game over.
         animator?.SetBool("IsDead", true);
-        Debug.Log("game over");
+        levelManager.GameOver();
     }
 
     public Animator GetAnimator()
