@@ -246,7 +246,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1794205993
+  m_SortingLayerID: 1314949361
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -2211,7 +2211,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1637800547
+  m_SortingLayerID: -949886363
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -3385,7 +3385,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -965485949
+  m_SortingLayerID: -852361125
   m_SortingLayer: 9
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -3843,7 +3843,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -302953219
-  m_SortingLayer: 7
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1496642684519901557, guid: 1182daf3fbfff94468d172f73538f458, type: 3}
@@ -3854,7 +3854,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!4 &717326170
 Transform:
@@ -4089,7 +4089,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1768105831
+  m_SortingLayerID: -1869721581
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
@@ -4557,7 +4557,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1383057175
+  m_SortingLayerID: 1683907127
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
