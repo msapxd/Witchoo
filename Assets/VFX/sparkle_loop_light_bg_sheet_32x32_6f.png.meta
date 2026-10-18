@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: 558da309af157e448a1e4bd6edee38f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -917551085669596375
+    second: sparkle_loop_light_bg_sheet_32x32_6f_0
+  - first:
+      213: -7925224931866324139
+    second: sparkle_loop_light_bg_sheet_32x32_6f_1
+  - first:
+      213: -8598369416149663925
+    second: sparkle_loop_light_bg_sheet_32x32_6f_2
+  - first:
+      213: 3294433516845092235
+    second: sparkle_loop_light_bg_sheet_32x32_6f_3
+  - first:
+      213: -7945695353605585295
+    second: sparkle_loop_light_bg_sheet_32x32_6f_4
+  - first:
+      213: -8002034138066654475
+    second: sparkle_loop_light_bg_sheet_32x32_6f_5
+  - first:
+      213: -4583873762304742048
+    second: sparkle_loop_light_bg_sheet_32x32_6f_6
+  - first:
+      213: 2916478563415758004
+    second: sparkle_loop_light_bg_sheet_32x32_6f_7
+  - first:
+      213: -4880563970832801087
+    second: sparkle_loop_light_bg_sheet_32x32_6f_8
+  - first:
+      213: -5493862780882789447
+    second: sparkle_loop_light_bg_sheet_32x32_6f_9
+  - first:
+      213: -7048760880655067674
+    second: sparkle_loop_light_bg_sheet_32x32_6f_10
+  - first:
+      213: 5387119559598249341
+    second: sparkle_loop_light_bg_sheet_32x32_6f_11
+  - first:
+      213: 5040559474714620186
+    second: sparkle_loop_light_bg_sheet_32x32_6f_12
+  - first:
+      213: -1868093224334404576
+    second: sparkle_loop_light_bg_sheet_32x32_6f_13
+  - first:
+      213: 1718465936000607335
+    second: sparkle_loop_light_bg_sheet_32x32_6f_14
+  - first:
+      213: -5387968405068998037
+    second: sparkle_loop_light_bg_sheet_32x32_6f_15
+  - first:
+      213: -3018408567523880505
+    second: sparkle_loop_light_bg_sheet_32x32_6f_16
+  - first:
+      213: -385894682169247676
+    second: sparkle_loop_light_bg_sheet_32x32_6f_17
+  - first:
+      213: 7603690787559956896
+    second: sparkle_loop_light_bg_sheet_32x32_6f_18
+  - first:
+      213: 4382546305230434110
+    second: sparkle_loop_light_bg_sheet_32x32_6f_19
+  - first:
+      213: 5660321471163298635
+    second: sparkle_loop_light_bg_sheet_32x32_6f_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sparkle_loop_light_bg_sheet_32x32_6f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923c36326243443f0800000000000000
+      internalID: -917551085669596375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle_loop_light_bg_sheet_32x32_6f_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553d9030ae1f30290800000000000000
+      internalID: -7925224931866324139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle_loop_light_bg_sheet_32x32_6f_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ff0d672947ca880800000000000000
+      internalID: -8598369416149663925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle_loop_light_bg_sheet_32x32_6f_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d41b334dd28bd20800000000000000
+      internalID: 3294433516845092235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle_loop_light_bg_sheet_32x32_6f_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1760eda8c283bb190800000000000000
+      internalID: -7945695353605585295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle_loop_light_bg_sheet_32x32_6f_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5faecf7195013f090800000000000000
+      internalID: -8002034138066654475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a40b06f61e2545e4eb6abe41d82ae1f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sparkle_loop_light_bg_sheet_32x32_6f_0: -917551085669596375
+      sparkle_loop_light_bg_sheet_32x32_6f_1: -7925224931866324139
+      sparkle_loop_light_bg_sheet_32x32_6f_10: -7048760880655067674
+      sparkle_loop_light_bg_sheet_32x32_6f_11: 5387119559598249341
+      sparkle_loop_light_bg_sheet_32x32_6f_12: 5040559474714620186
+      sparkle_loop_light_bg_sheet_32x32_6f_13: -1868093224334404576
+      sparkle_loop_light_bg_sheet_32x32_6f_14: 1718465936000607335
+      sparkle_loop_light_bg_sheet_32x32_6f_15: -5387968405068998037
+      sparkle_loop_light_bg_sheet_32x32_6f_16: -3018408567523880505
+      sparkle_loop_light_bg_sheet_32x32_6f_17: -385894682169247676
+      sparkle_loop_light_bg_sheet_32x32_6f_18: 7603690787559956896
+      sparkle_loop_light_bg_sheet_32x32_6f_19: 4382546305230434110
+      sparkle_loop_light_bg_sheet_32x32_6f_2: -8598369416149663925
+      sparkle_loop_light_bg_sheet_32x32_6f_20: 5660321471163298635
+      sparkle_loop_light_bg_sheet_32x32_6f_3: 3294433516845092235
+      sparkle_loop_light_bg_sheet_32x32_6f_4: -7945695353605585295
+      sparkle_loop_light_bg_sheet_32x32_6f_5: -8002034138066654475
+      sparkle_loop_light_bg_sheet_32x32_6f_6: -4583873762304742048
+      sparkle_loop_light_bg_sheet_32x32_6f_7: 2916478563415758004
+      sparkle_loop_light_bg_sheet_32x32_6f_8: -4880563970832801087
+      sparkle_loop_light_bg_sheet_32x32_6f_9: -5493862780882789447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
