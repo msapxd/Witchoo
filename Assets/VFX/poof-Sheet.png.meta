@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 6606c71d07673df47839de665ed71218
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1445654045448301718
+    second: poof-Sheet_0
+  - first:
+      213: -6709577959605375037
+    second: poof-Sheet_1
+  - first:
+      213: -2197573953784165400
+    second: poof-Sheet_2
+  - first:
+      213: -8985058848790111687
+    second: poof-Sheet_3
+  - first:
+      213: 3556834815719718038
+    second: poof-Sheet_4
+  - first:
+      213: -1816023221623850081
+    second: poof-Sheet_5
+  - first:
+      213: 5571480934511121406
+    second: poof-Sheet_6
+  - first:
+      213: -8530085943765331300
+    second: poof-Sheet_7
+  - first:
+      213: -5948587586159483909
+    second: poof-Sheet_8
+  - first:
+      213: -5137561370059370167
+    second: poof-Sheet_9
+  - first:
+      213: -8474601353618521252
+    second: poof-Sheet_10
+  - first:
+      213: 1123898032353994521
+    second: poof-Sheet_11
+  - first:
+      213: 3588884291656641880
+    second: poof-Sheet_12
+  - first:
+      213: -8217876416817036399
+    second: poof-Sheet_13
+  - first:
+      213: -6407320496911743070
+    second: poof-Sheet_14
+  - first:
+      213: 5643252377964235500
+    second: poof-Sheet_15
+  - first:
+      213: -2156943761944495157
+    second: poof-Sheet_16
+  - first:
+      213: -1108010890638391979
+    second: poof-Sheet_17
+  - first:
+      213: 6297773942966851562
+    second: poof-Sheet_18
+  - first:
+      213: 138826350503617876
+    second: poof-Sheet_19
+  - first:
+      213: 666593348070726472
+    second: poof-Sheet_20
+  - first:
+      213: -3194452372447426711
+    second: poof-Sheet_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poof-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6392f81e4100fbe0800000000000000
+      internalID: -1445654045448301718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poof-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf6ee4056ac2e2a0800000000000000
+      internalID: -6709577959605375037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poof-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb4b0dd126a081e0800000000000000
+      internalID: -2197573953784165400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poof-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a92e7f498ae4380800000000000000
+      internalID: -8985058848790111687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poof-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c37b38b6a6c5130800000000000000
+      internalID: 3556834815719718038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poof-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bff3b60803cc6e0800000000000000
+      internalID: -1816023221623850081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9364de24839eef14a8245554499197b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poof-Sheet_0: -1445654045448301718
+      poof-Sheet_1: -6709577959605375037
+      poof-Sheet_10: -8474601353618521252
+      poof-Sheet_11: 1123898032353994521
+      poof-Sheet_12: 3588884291656641880
+      poof-Sheet_13: -8217876416817036399
+      poof-Sheet_14: -6407320496911743070
+      poof-Sheet_15: 5643252377964235500
+      poof-Sheet_16: -2156943761944495157
+      poof-Sheet_17: -1108010890638391979
+      poof-Sheet_18: 6297773942966851562
+      poof-Sheet_19: 138826350503617876
+      poof-Sheet_2: -2197573953784165400
+      poof-Sheet_20: 666593348070726472
+      poof-Sheet_21: -3194452372447426711
+      poof-Sheet_22: -267182757
+      poof-Sheet_3: -8985058848790111687
+      poof-Sheet_4: 3556834815719718038
+      poof-Sheet_5: -1816023221623850081
+      poof-Sheet_6: 5571480934511121406
+      poof-Sheet_7: -8530085943765331300
+      poof-Sheet_8: -5948587586159483909
+      poof-Sheet_9: -5137561370059370167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

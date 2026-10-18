@@ -8,16 +8,22 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     [SerializeField] private Animator animator;
     private Vector3 baseScale;
+    public bool isDialogueActive = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
         baseScale = transform.localScale;
     }
 
     void Update()
     {
+        if (DialogueManager.isActive)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
         rb.linearVelocity = moveInput * moveSpeed;
 
         if (moveInput.x < 0)
@@ -32,6 +38,12 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        if (DialogueManager.isActive)
+        {
+            moveInput = Vector2.zero; 
+            animator.SetBool("IsWalking", false); 
+            return;
+        }
         animator.SetBool("IsWalking", true);
         if (context.canceled)
         {

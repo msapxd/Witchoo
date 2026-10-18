@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: ca1be6484e67be145a5dce7c85b75090
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7560628101639312919
+    second: heal_light_bg_sheet_32x32_8f_0
+  - first:
+      213: -5981301210401592908
+    second: heal_light_bg_sheet_32x32_8f_1
+  - first:
+      213: -4856664234849739290
+    second: heal_light_bg_sheet_32x32_8f_2
+  - first:
+      213: 1890091840443352858
+    second: heal_light_bg_sheet_32x32_8f_3
+  - first:
+      213: 718022871473319765
+    second: heal_light_bg_sheet_32x32_8f_4
+  - first:
+      213: -5662807032875525030
+    second: heal_light_bg_sheet_32x32_8f_5
+  - first:
+      213: 8460031543065751648
+    second: heal_light_bg_sheet_32x32_8f_6
+  - first:
+      213: -8298588385845798575
+    second: heal_light_bg_sheet_32x32_8f_7
+  - first:
+      213: 1400423602383335913
+    second: heal_light_bg_sheet_32x32_8f_8
+  - first:
+      213: 4060868459310587406
+    second: heal_light_bg_sheet_32x32_8f_9
+  - first:
+      213: -8731467906948157132
+    second: heal_light_bg_sheet_32x32_8f_10
+  - first:
+      213: -4976553269988780945
+    second: heal_light_bg_sheet_32x32_8f_11
+  - first:
+      213: -6588252141111129934
+    second: heal_light_bg_sheet_32x32_8f_12
+  - first:
+      213: 5918672139988615867
+    second: heal_light_bg_sheet_32x32_8f_13
+  - first:
+      213: 5569098595290857836
+    second: heal_light_bg_sheet_32x32_8f_14
+  - first:
+      213: -2143200212579401289
+    second: heal_light_bg_sheet_32x32_8f_15
+  - first:
+      213: -356681386750254297
+    second: heal_light_bg_sheet_32x32_8f_16
+  - first:
+      213: 4038453496932977866
+    second: heal_light_bg_sheet_32x32_8f_17
+  - first:
+      213: -6566549610493949031
+    second: heal_light_bg_sheet_32x32_8f_18
+  - first:
+      213: -2796498561637072857
+    second: heal_light_bg_sheet_32x32_8f_19
+  - first:
+      213: 3180064509271293495
+    second: heal_light_bg_sheet_32x32_8f_20
+  - first:
+      213: -179426579858248460
+    second: heal_light_bg_sheet_32x32_8f_21
+  - first:
+      213: -1877996126658744536
+    second: heal_light_bg_sheet_32x32_8f_22
+  - first:
+      213: 9190255069142299867
+    second: heal_light_bg_sheet_32x32_8f_23
+  - first:
+      213: 1617843344499347785
+    second: heal_light_bg_sheet_32x32_8f_24
+  - first:
+      213: -3224989944927618170
+    second: heal_light_bg_sheet_32x32_8f_25
+  - first:
+      213: -6435583195476457910
+    second: heal_light_bg_sheet_32x32_8f_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7161c05533fbce860800000000000000
+      internalID: 7560628101639312919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9266b4d362efca0800000000000000
+      internalID: -5981301210401592908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eddf603c99a99cb0800000000000000
+      internalID: -4856664234849739290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a178d76c384fa3a10800000000000000
+      internalID: 1890091840443352858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fe5c25ffde6f900800000000000000
+      internalID: 718022871473319765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cded5a10ba961b0800000000000000
+      internalID: -5662807032875525030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060b8018dd1186570800000000000000
+      internalID: 8460031543065751648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heal_light_bg_sheet_32x32_8f_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1599a74b4dd75dc80800000000000000
+      internalID: -8298588385845798575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e541c7f49fc18c24da9e2db5aff7fda8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heal_light_bg_sheet_32x32_8f_0: 7560628101639312919
+      heal_light_bg_sheet_32x32_8f_1: -5981301210401592908
+      heal_light_bg_sheet_32x32_8f_10: -8731467906948157132
+      heal_light_bg_sheet_32x32_8f_11: -4976553269988780945
+      heal_light_bg_sheet_32x32_8f_12: -6588252141111129934
+      heal_light_bg_sheet_32x32_8f_13: 5918672139988615867
+      heal_light_bg_sheet_32x32_8f_14: 5569098595290857836
+      heal_light_bg_sheet_32x32_8f_15: -2143200212579401289
+      heal_light_bg_sheet_32x32_8f_16: -356681386750254297
+      heal_light_bg_sheet_32x32_8f_17: 4038453496932977866
+      heal_light_bg_sheet_32x32_8f_18: -6566549610493949031
+      heal_light_bg_sheet_32x32_8f_19: -2796498561637072857
+      heal_light_bg_sheet_32x32_8f_2: -4856664234849739290
+      heal_light_bg_sheet_32x32_8f_20: 3180064509271293495
+      heal_light_bg_sheet_32x32_8f_21: -179426579858248460
+      heal_light_bg_sheet_32x32_8f_22: -1877996126658744536
+      heal_light_bg_sheet_32x32_8f_23: 9190255069142299867
+      heal_light_bg_sheet_32x32_8f_24: 1617843344499347785
+      heal_light_bg_sheet_32x32_8f_25: -3224989944927618170
+      heal_light_bg_sheet_32x32_8f_26: -6435583195476457910
+      heal_light_bg_sheet_32x32_8f_3: 1890091840443352858
+      heal_light_bg_sheet_32x32_8f_4: 718022871473319765
+      heal_light_bg_sheet_32x32_8f_5: -5662807032875525030
+      heal_light_bg_sheet_32x32_8f_6: 8460031543065751648
+      heal_light_bg_sheet_32x32_8f_7: -8298588385845798575
+      heal_light_bg_sheet_32x32_8f_8: 1400423602383335913
+      heal_light_bg_sheet_32x32_8f_9: 4060868459310587406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
