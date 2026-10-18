@@ -63,7 +63,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1909429624395351926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34154c74ad66405d97d739dfbccb4d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cat
+  levelManager: {fileID: 0}
   speed: 5
   animator: {fileID: 4617805846009551790}
 --- !u!212 &8748893138880720745
@@ -461,6 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1444dff8b1c8945118a27844284eafd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bat
+  levelManager: {fileID: 0}
   speed: 5
   animator: {fileID: 5967913562525721463}
 --- !u!212 &6284999166998588502
@@ -590,6 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d24e1404bfeb4d768172e6be2baa5d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Witch
+  levelManager: {fileID: 0}
   speed: 5
   animator: {fileID: 6251004200982986337}
 --- !u!212 &5345275783839401026

@@ -24,14 +24,24 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Typing Settings")]
     public float typingSpeed = 0.025f;
-    public float punctuationPause = 0.4f;
+    public float punctuationPause = 0.6f;
 
     [Header("Audio Settings")]
     public AudioSource audioSource;
     public AudioClip typingSound;
-    [Range(1, 5)] public int playSoundEvery = 2; // 1 = every letter, 2 = every other letter
+    [Range(1, 5)] public int playSoundEvery = 2;
     [Range(0.5f, 2f)] public float minPitch = 0.95f;
     [Range(0.5f, 2f)] public float maxPitch = 1.05f;
+
+    [Header("Pitch Drift Settings")]
+    [Tooltip("How much the pitch changes over a normal sentence")]
+    public float defaultDrift = 0f;
+    [Tooltip("How much the pitch changes for a question")]
+    public float questionDrift = 0.15f;
+    [Tooltip("How much the pitch changes for an exclamation")]
+    public float exclamationDrift = 0.1f;
+    [Tooltip("Pops the starting pitch up for exclamations")]
+    public float exclamationStartBoost = 0.05f;
 
     private DialogueLine[] currentLines;
     private int currentLineIndex = 0;
@@ -76,7 +86,7 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-}
+    }
 
     // Other scripts will call this function to pass in their specific lines
     public void StartDialogue(DialogueLine[] lines, Animator speakerAnimator = null)
@@ -108,21 +118,37 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "  ";
 
         bool lastCharWasPunctuation = false;
-        int charCount = 0; // Add a counter for the letters
+        int charCount = 0;
+
+        string trimmedSentence = sentence.TrimEnd();
+        bool isQuestion = trimmedSentence.EndsWith("?");
+        bool isExclamation = trimmedSentence.EndsWith("!");
+
+        float basePitch = (minPitch + maxPitch) / 2f;
+        float pitchVariance = (maxPitch - minPitch) / 2f;
+
+        // Determine the total drift based on the punctuation
+        float maxDrift = defaultDrift;
+        if (isQuestion) maxDrift = questionDrift;
+        else if (isExclamation) maxDrift = exclamationDrift;
+        if (isExclamation) basePitch += exclamationStartBoost;
+
+        float pitchStep = maxDrift / Mathf.Max(1, sentence.Length);
+        float currentPitch = basePitch;
+
 
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
 
-            // Only count and play sounds for actual visible letters
             if (letter != ' ' && typingSound != null)
             {
                 charCount++;
+                currentPitch += pitchStep;
 
-                // The % symbol checks if the count divides evenly by your setting
                 if (charCount % playSoundEvery == 0)
                 {
-                    audioSource.pitch = Random.Range(minPitch, maxPitch);
+                    audioSource.pitch = currentPitch + Random.Range(-pitchVariance, pitchVariance);
                     audioSource.PlayOneShot(typingSound);
                 }
             }
