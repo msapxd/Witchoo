@@ -52,6 +52,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   gameOver: {fileID: 2006752009044178915}
   youWin: {fileID: 6895577928069505564}
+  trapsList: []
+  door: {fileID: 0}
+  levels:
+  - Level0
+  - Level1
+  - Level2
+  - Level3
 --- !u!1001 &1448783732938924511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -338,11 +345,11 @@ PrefabInstance:
       objectReference: {fileID: 5429062683162775022}
     - target: {fileID: 8671732920891735492, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: -11.01
       objectReference: {fileID: 0}
     - target: {fileID: 8671732920891735492, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -5.11
       objectReference: {fileID: 0}
     - target: {fileID: 8671732920891735492, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalPosition.z

@@ -1,9 +1,13 @@
+using System;
 using UnityEngine;
 
 public abstract class TrapAbstract : MonoBehaviour, IDamageable
 {
     public Animator animator;
+    public bool isDead = false;
     private int currentHealth = 1;
+    public Action OnDeath;
+
     public virtual void ApplyDamage(IDamageable damageable)
     {
         damageable.TakeDamage(1);
@@ -21,6 +25,8 @@ public abstract class TrapAbstract : MonoBehaviour, IDamageable
 
     public virtual void Die()
     {
+        isDead = true;
+        OnDeath?.Invoke();
         AnimateDeath();
         //Destroy(gameObject);
     }
