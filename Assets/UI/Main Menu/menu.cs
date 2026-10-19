@@ -32,7 +32,7 @@ public class menu : MonoBehaviour
         private IEnumerator SwitchSceneAfterDelayPlay()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("SampleScene"); 
+        SceneManager.LoadScene("Level 0"); 
     }
 
 }

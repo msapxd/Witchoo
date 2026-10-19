@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour
         gameOver.SetActive(true);
     }
 
-    
+    //reload scene when health is lost but not 0
 
     public void YouWin()
     {

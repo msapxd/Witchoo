@@ -60,11 +60,11 @@ TagManager:
   - name: OutsideWalls
     uniqueID: 1806199263
     locked: 0
-  - name: Traps
-    uniqueID: 3227461577
-    locked: 0
   - name: Player
     uniqueID: 1883649595
+    locked: 0
+  - name: Traps
+    uniqueID: 3227461577
     locked: 0
   - name: WalkBehind
     uniqueID: 2111708945
