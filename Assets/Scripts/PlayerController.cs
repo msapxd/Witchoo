@@ -87,6 +87,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+         if (other.CompareTag("Door"))
+        {
+            //go to next scene
+        }
+
         TrapAbstract trapAbstract = other.GetComponent<TrapAbstract>();
         if (trapAbstract != null)
         {

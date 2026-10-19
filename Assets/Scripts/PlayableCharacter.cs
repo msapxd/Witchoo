@@ -32,7 +32,7 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
         }
         else
         {
-            Debug.Log("restart room");
+            levelManager.LostLife();
         }
     }
 
