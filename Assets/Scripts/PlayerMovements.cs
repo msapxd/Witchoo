@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (DialogueManager.isActive)
+        if (DialogueManager.isActive || animator == null || !animator.gameObject.activeInHierarchy)
         {
             rb.linearVelocity = Vector2.zero;
             return;
@@ -40,8 +40,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (DialogueManager.isActive)
         {
-            moveInput = Vector2.zero; 
-            animator.SetBool("IsWalking", false); 
+            moveInput = Vector2.zero;
+            if (animator != null) animator.SetBool("IsWalking", false);
+            return;
+        }
+        moveInput = context.ReadValue<Vector2>();
+        if (animator == null || !animator.gameObject.activeInHierarchy)
+        {
             return;
         }
         animator.SetBool("IsWalking", true);
@@ -59,5 +64,13 @@ public class PlayerMovement : MonoBehaviour
     public void SetAnimator(Animator newAnimator)
     {
         animator = newAnimator;
+        if (animator != null)
+        {
+            bool isMoving = moveInput != Vector2.zero;
+
+            animator.SetBool("IsWalking", isMoving);
+            animator.SetFloat("InputX", moveInput.x);
+            animator.SetFloat("InputY", moveInput.y);
+        }
     }
 }

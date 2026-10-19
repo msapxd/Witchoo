@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
 
     public void SwitchCharacter(InputAction.CallbackContext context)
     {
+        if (DialogueManager.isActive) return;
+
         if (!context.performed)
         {
             return;
@@ -42,7 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         if (playEffect)
         {
-            VFXManager.Instance.PlayVFX("Poof", transform.position, 0.5f);
+            VFXManager.Instance.PlayVFX("Poof", transform.position, 0.5f, transform);
             StartCoroutine(DelayedSwap(characterIndex));
         }
         else
