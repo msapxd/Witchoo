@@ -1,7 +1,9 @@
 using System.Collections;
+using System.Diagnostics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
 using UnityEngine.VFX;
 
@@ -89,7 +91,14 @@ public class PlayerController : MonoBehaviour
 
          if (other.CompareTag("Door"))
         {
-            //go to next scene
+            string currentLevel = SceneManager.GetActiveScene().name;
+            if (currentLevel == "Level0")
+                SceneManager.LoadScene("Level1");
+            if (currentLevel == "Level1")
+                SceneManager.LoadScene("Level2");
+            if (currentLevel == "Level2")
+                SceneManager.LoadScene("Level3");
+
         }
 
         TrapAbstract trapAbstract = other.GetComponent<TrapAbstract>();
