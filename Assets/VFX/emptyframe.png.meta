@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: d3dc64c059917d94bbe5fdecb543b051
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 427677425937508637
+    second: DeathGhostWhite-Sheet 1_0
+  - first:
+      213: -1379722669014487642
+    second: DeathGhostWhite-Sheet 1_1
+  - first:
+      213: -744687553258151639
+    second: DeathGhostWhite-Sheet 1_2
+  - first:
+      213: -6729409920853438847
+    second: DeathGhostWhite-Sheet 1_3
+  - first:
+      213: 4649911385649094829
+    second: DeathGhostWhite-Sheet 1_4
+  - first:
+      213: 7658691300432356243
+    second: DeathGhostWhite-Sheet 1_5
+  - first:
+      213: -1824057620865362036
+    second: DeathGhostWhite-Sheet 1_6
+  - first:
+      213: -1555426476364336024
+    second: DeathGhostWhite-Sheet 1_7
+  - first:
+      213: -8983153870459766747
+    second: DeathGhostWhite-Sheet 1_8
+  - first:
+      213: -6063772041446448476
+    second: DeathGhostWhite-Sheet 1_9
+  - first:
+      213: -384563254055366211
+    second: DeathGhostWhite-Sheet 1_10
+  - first:
+      213: -4268299169967830047
+    second: DeathGhostWhite-Sheet 1_11
+  - first:
+      213: -6849969768329540606
+    second: DeathGhostWhite-Sheet 1_12
+  - first:
+      213: -2586943143011489030
+    second: DeathGhostWhite-Sheet 1_13
+  - first:
+      213: -3701376703263386055
+    second: DeathGhostWhite-Sheet 1_14
+  - first:
+      213: 3986871803368982515
+    second: DeathGhostWhite-Sheet 1_15
+  - first:
+      213: -1983612499674976307
+    second: DeathGhostWhite-Sheet 1_16
+  - first:
+      213: -6748169174671524586
+    second: DeathGhostWhite-Sheet 1_17
+  - first:
+      213: -9125605123255110106
+    second: DeathGhostWhite-Sheet 1_18
+  - first:
+      213: -4427632752716041399
+    second: DeathGhostWhite-Sheet 1_19
+  - first:
+      213: -7626803935382413080
+    second: DeathGhostWhite-Sheet 1_20
+  - first:
+      213: -5937344086674036493
+    second: DeathGhostWhite-Sheet 1_21
+  - first:
+      213: -7259288715512365907
+    second: DeathGhostWhite-Sheet 1_22
+  - first:
+      213: -9077329992875462122
+    second: DeathGhostWhite-Sheet 1_23
+  - first:
+      213: 3358400081099882778
+    second: DeathGhostWhite-Sheet 1_24
+  - first:
+      213: -1828656752263586488
+    second: DeathGhostWhite-Sheet 1_25
+  - first:
+      213: 6402530161593783970
+    second: DeathGhostWhite-Sheet 1_26
+  - first:
+      213: -334901125378190867
+    second: DeathGhostWhite-Sheet 1_27
+  - first:
+      213: -7913869698050179949
+    second: DeathGhostWhite-Sheet 1_28
+  - first:
+      213: -1179540867180908842
+    second: DeathGhostWhite-Sheet 1_29
+  - first:
+      213: -1781926773449292336
+    second: DeathGhostWhite-Sheet 1_30
+  - first:
+      213: 4733625348951061787
+    second: DeathGhostWhite-Sheet 1_31
+  - first:
+      213: 7368438471206914439
+    second: DeathGhostWhite-Sheet 1_32
+  - first:
+      213: -7311661688555828406
+    second: DeathGhostWhite-Sheet 1_33
+  - first:
+      213: -719795000858015536
+    second: DeathGhostWhite-Sheet 1_34
+  - first:
+      213: 7465319165035756506
+    second: DeathGhostWhite-Sheet 1_35
+  - first:
+      213: -9188872510412524024
+    second: DeathGhostWhite-Sheet 1_36
+  - first:
+      213: -4590983008647933148
+    second: DeathGhostWhite-Sheet 1_37
+  - first:
+      213: 8611276684259765474
+    second: DeathGhostWhite-Sheet 1_38
+  - first:
+      213: 8963741803155761716
+    second: DeathGhostWhite-Sheet 1_39
+  - first:
+      213: -5227239787655476931
+    second: DeathGhostWhite-Sheet 1_40
+  - first:
+      213: 4675213963898528008
+    second: DeathGhostWhite-Sheet 1_41
+  - first:
+      213: 5377104858558332025
+    second: DeathGhostWhite-Sheet 1_42
+  - first:
+      213: -2594969190540907643
+    second: DeathGhostWhite-Sheet 1_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeathGhostWhite-Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e52ec265a8059041b42a73da30fb078
+      internalID: -1617044937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 491914c1c6e34264c88e59874cea8e18
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DeathGhostWhite-Sheet 1_0: 427677425937508637
+      DeathGhostWhite-Sheet 1_1: -1379722669014487642
+      DeathGhostWhite-Sheet 1_10: -384563254055366211
+      DeathGhostWhite-Sheet 1_11: -4268299169967830047
+      DeathGhostWhite-Sheet 1_12: -6849969768329540606
+      DeathGhostWhite-Sheet 1_13: -2586943143011489030
+      DeathGhostWhite-Sheet 1_14: -3701376703263386055
+      DeathGhostWhite-Sheet 1_15: -1617044937
+      DeathGhostWhite-Sheet 1_2: -744687553258151639
+      DeathGhostWhite-Sheet 1_3: -6729409920853438847
+      DeathGhostWhite-Sheet 1_4: 4649911385649094829
+      DeathGhostWhite-Sheet 1_5: 7658691300432356243
+      DeathGhostWhite-Sheet 1_6: -1824057620865362036
+      DeathGhostWhite-Sheet 1_7: -1555426476364336024
+      DeathGhostWhite-Sheet 1_8: -8983153870459766747
+      DeathGhostWhite-Sheet 1_9: -6063772041446448476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
