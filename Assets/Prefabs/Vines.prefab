@@ -49,6 +49,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Vines
   animator: {fileID: 5923721309109360918}
   isDead: 0
+  damageCollider: {fileID: 2877077213237215303}
+  spriteRenderer: {fileID: 7858345608639909623}
+  deathAnimationDuration: 0.5
+  decorationSortingLayerName: Decore
+  backgroundSortingOrder: 0
 --- !u!212 &7858345608639909623
 SpriteRenderer:
   serializedVersion: 2

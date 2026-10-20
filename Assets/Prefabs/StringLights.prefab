@@ -49,6 +49,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StringLights
   animator: {fileID: 5883163501018467314}
   isDead: 0
+  damageCollider: {fileID: 4884614501662176547}
+  spriteRenderer: {fileID: 4906057333331913707}
+  deathAnimationDuration: 0.5
+  decorationSortingLayerName: Decore
+  backgroundSortingOrder: 0
 --- !u!212 &4906057333331913707
 SpriteRenderer:
   serializedVersion: 2
