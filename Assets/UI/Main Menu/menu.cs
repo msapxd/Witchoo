@@ -8,6 +8,7 @@ public class menu : MonoBehaviour
     {
         fadeAnimator.Play("fadeOutToBlack");
         StartCoroutine(SwitchSceneAfterDelayPlay());
+        PlayerData.currentHealth = 1;
 
     }
 
