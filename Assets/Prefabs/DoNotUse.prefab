@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5883163501018467314}
   - component: {fileID: 4884614501662176547}
   m_Layer: 0
-  m_Name: StringLights
+  m_Name: DoNotUse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8629672800204316283}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.99793696, z: 0, w: 0.06420136}
-  m_LocalPosition: {x: 0.3, y: 3.01, z: -0.09}
+  m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []

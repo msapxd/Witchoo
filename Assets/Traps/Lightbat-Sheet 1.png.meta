@@ -1,73 +1,76 @@
 fileFormatVersion: 2
-guid: 0bc3c65461c64784890ae4c204942e59
+guid: f1e7dde78a661154a896d733f54f9377
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3221934096939267177
-    second: Lightbat-Sheet_0
+      213: 6873959487700654482
+    second: Lightbat-Sheet 1_0
   - first:
-      213: -8519154820008761847
-    second: Lightbat-Sheet_1
+      213: 7148493839325301691
+    second: Lightbat-Sheet 1_1
   - first:
-      213: 7378094687097350253
-    second: Lightbat-Sheet_2
+      213: -4092787281706669260
+    second: Lightbat-Sheet 1_2
   - first:
-      213: 2275567357723357912
-    second: Lightbat-Sheet_3
+      213: -7462022493079220268
+    second: Lightbat-Sheet 1_3
   - first:
-      213: 8713086086704809332
-    second: Lightbat-Sheet_4
+      213: -4304107924392635983
+    second: Lightbat-Sheet 1_4
   - first:
-      213: 6535025570105500894
-    second: Lightbat-Sheet_5
+      213: -374774264076004650
+    second: Lightbat-Sheet 1_5
   - first:
-      213: 4427816568891430786
-    second: Lightbat-Sheet_6
+      213: -3154695319671978776
+    second: Lightbat-Sheet 1_6
   - first:
-      213: 3648250784150591931
-    second: Lightbat-Sheet_7
+      213: 4752916837168041006
+    second: Lightbat-Sheet 1_7
   - first:
-      213: 394752486311043385
-    second: Lightbat-Sheet_8
+      213: -6295474652664469246
+    second: Lightbat-Sheet 1_8
   - first:
-      213: -4806805653267250937
-    second: Lightbat-Sheet_9
+      213: 4945081640500332554
+    second: Lightbat-Sheet 1_9
   - first:
-      213: 291443755055117669
-    second: Lightbat-Sheet_10
+      213: 7628600600958261970
+    second: Lightbat-Sheet 1_10
   - first:
-      213: 1067347586216504471
-    second: Lightbat-Sheet_11
+      213: -3133533890812346645
+    second: Lightbat-Sheet 1_11
   - first:
-      213: 7822906044833440055
-    second: Lightbat-Sheet_12
+      213: -5769293162003744556
+    second: Lightbat-Sheet 1_12
   - first:
-      213: -3290215543392050477
-    second: Lightbat-Sheet_13
+      213: -4842733689803583230
+    second: Lightbat-Sheet 1_13
   - first:
-      213: 8398034863567364589
-    second: Lightbat-Sheet_14
+      213: -7470848796832047309
+    second: Lightbat-Sheet 1_14
   - first:
-      213: 750212418176675360
-    second: Lightbat-Sheet_15
+      213: 941160689286407624
+    second: Lightbat-Sheet 1_15
   - first:
-      213: 2953829216423080027
-    second: Lightbat-Sheet_16
+      213: 5421615987659759678
+    second: Lightbat-Sheet 1_16
   - first:
-      213: 5752106167236362507
-    second: Lightbat-Sheet_17
+      213: 6809574567552935790
+    second: Lightbat-Sheet 1_17
   - first:
-      213: -5767630219502684510
-    second: Lightbat-Sheet_18
+      213: 2112494641105006456
+    second: Lightbat-Sheet 1_18
   - first:
-      213: 6642105457506803651
-    second: Lightbat-Sheet_19
+      213: -1351805999021801927
+    second: Lightbat-Sheet 1_19
   - first:
-      213: 8310305578071399016
-    second: Lightbat-Sheet_20
+      213: 1626902754790431641
+    second: Lightbat-Sheet 1_20
   - first:
-      213: 1147501298882476836
-    second: Lightbat-Sheet_21
+      213: 5878294907237478467
+    second: Lightbat-Sheet 1_21
+  - first:
+      213: -4402496179999425964
+    second: Lightbat-Sheet 1_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -163,7 +166,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lightbat-Sheet_0
+      name: Lightbat-Sheet 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -178,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 964b8c99dfb96bc20800000000000000
-      internalID: 3221934096939267177
+      spriteID: 299d2d8fbb5356f50800000000000000
+      internalID: 6873959487700654482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_1
+      name: Lightbat-Sheet 1_1
       rect:
         serializedVersion: 2
         x: 71
@@ -200,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90622ded3d1e5c980800000000000000
-      internalID: -8519154820008761847
+      spriteID: bbb8d04c54d843360800000000000000
+      internalID: 7148493839325301691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_2
+      name: Lightbat-Sheet 1_2
       rect:
         serializedVersion: 2
         x: 142
@@ -222,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6862afe602446660800000000000000
-      internalID: 7378094687097350253
+      spriteID: 43b23acd6af7337c0800000000000000
+      internalID: -4092787281706669260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_3
+      name: Lightbat-Sheet 1_3
       rect:
         serializedVersion: 2
         x: 213
@@ -244,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d233939470749f10800000000000000
-      internalID: 2275567357723357912
+      spriteID: 4dfc90af312917890800000000000000
+      internalID: -7462022493079220268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_4
+      name: Lightbat-Sheet 1_4
       rect:
         serializedVersion: 2
         x: 284
@@ -266,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4754077c1a91be870800000000000000
-      internalID: 8713086086704809332
+      spriteID: 1b112ab95acb444c0800000000000000
+      internalID: -4304107924392635983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_5
+      name: Lightbat-Sheet 1_5
       rect:
         serializedVersion: 2
         x: 355
@@ -288,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed4ab38c12311ba50800000000000000
-      internalID: 6535025570105500894
+      spriteID: 6d29acedac88ccaf0800000000000000
+      internalID: -374774264076004650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_6
+      name: Lightbat-Sheet 1_6
       rect:
         serializedVersion: 2
         x: 426
@@ -310,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 287dc57b5b3c27d30800000000000000
-      internalID: 4427816568891430786
+      spriteID: 8e44d5032554834d0800000000000000
+      internalID: -3154695319671978776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_7
+      name: Lightbat-Sheet 1_7
       rect:
         serializedVersion: 2
         x: 497
@@ -332,14 +335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb916d842c031a230800000000000000
-      internalID: 3648250784150591931
+      spriteID: e2ccf5e6ea0c5f140800000000000000
+      internalID: 4752916837168041006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_8
+      name: Lightbat-Sheet 1_8
       rect:
         serializedVersion: 2
         x: 568
@@ -354,14 +357,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 931a5c87b417a7500800000000000000
-      internalID: 394752486311043385
+      spriteID: 2096573882bf1a8a0800000000000000
+      internalID: -6295474652664469246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_9
+      name: Lightbat-Sheet 1_9
       rect:
         serializedVersion: 2
         x: 639
@@ -376,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7018aa4d9bbca4db0800000000000000
-      internalID: -4806805653267250937
+      spriteID: a0804574d8570a440800000000000000
+      internalID: 4945081640500332554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_10
+      name: Lightbat-Sheet 1_10
       rect:
         serializedVersion: 2
         x: 710
@@ -398,14 +401,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 565f0141d8a6b0400800000000000000
-      internalID: 291443755055117669
+      spriteID: 2dad27914db3ed960800000000000000
+      internalID: 7628600600958261970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_11
+      name: Lightbat-Sheet 1_11
       rect:
         serializedVersion: 2
         x: 781
@@ -420,14 +423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79c2e4089faffce00800000000000000
-      internalID: 1067347586216504471
+      spriteID: bee7b7a47837384d0800000000000000
+      internalID: -3133533890812346645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_12
+      name: Lightbat-Sheet 1_12
       rect:
         serializedVersion: 2
         x: 852
@@ -442,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 731ad89a99b809c60800000000000000
-      internalID: 7822906044833440055
+      spriteID: 4d83da9af6a5fefa0800000000000000
+      internalID: -5769293162003744556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_13
+      name: Lightbat-Sheet 1_13
       rect:
         serializedVersion: 2
         x: 923
@@ -464,14 +467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d2e5a5456ec652d0800000000000000
-      internalID: -3290215543392050477
+      spriteID: 201d075fd572bccb0800000000000000
+      internalID: -4842733689803583230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_14
+      name: Lightbat-Sheet 1_14
       rect:
         serializedVersion: 2
         x: 994
@@ -486,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de16746b630db8470800000000000000
-      internalID: 8398034863567364589
+      spriteID: 33fdb2ef996325890800000000000000
+      internalID: -7470848796832047309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lightbat-Sheet_15
+      name: Lightbat-Sheet 1_15
       rect:
         serializedVersion: 2
         x: 1065
@@ -508,8 +511,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02ee183383a496a00800000000000000
-      internalID: 750212418176675360
+      spriteID: 8c56a7119acaf0d00800000000000000
+      internalID: 941160689286407624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightbat-Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 0
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30e90d04037d3b40800000000000000
+      internalID: 5421615987659759678
       vertices: []
       indices: 
       edges: []
@@ -518,7 +543,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3a0e72d5635699f44a0526bc7408084c
+    spriteID: 2d52bafd05a0d4a47b4332b329f992e4
     internalID: 0
     vertices: []
     indices: 
@@ -530,22 +555,23 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":71.0,"y":65.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Lightbat-Sheet_0: 3221934096939267177
-      Lightbat-Sheet_1: -8519154820008761847
-      Lightbat-Sheet_10: 291443755055117669
-      Lightbat-Sheet_11: 1067347586216504471
-      Lightbat-Sheet_12: 7822906044833440055
-      Lightbat-Sheet_13: -3290215543392050477
-      Lightbat-Sheet_14: 8398034863567364589
-      Lightbat-Sheet_15: 750212418176675360
-      Lightbat-Sheet_2: 7378094687097350253
-      Lightbat-Sheet_3: 2275567357723357912
-      Lightbat-Sheet_4: 8713086086704809332
-      Lightbat-Sheet_5: 6535025570105500894
-      Lightbat-Sheet_6: 4427816568891430786
-      Lightbat-Sheet_7: 3648250784150591931
-      Lightbat-Sheet_8: 394752486311043385
-      Lightbat-Sheet_9: -4806805653267250937
+      Lightbat-Sheet 1_0: 6873959487700654482
+      Lightbat-Sheet 1_1: 7148493839325301691
+      Lightbat-Sheet 1_10: 7628600600958261970
+      Lightbat-Sheet 1_11: -3133533890812346645
+      Lightbat-Sheet 1_12: -5769293162003744556
+      Lightbat-Sheet 1_13: -4842733689803583230
+      Lightbat-Sheet 1_14: -7470848796832047309
+      Lightbat-Sheet 1_15: 941160689286407624
+      Lightbat-Sheet 1_16: 5421615987659759678
+      Lightbat-Sheet 1_2: -4092787281706669260
+      Lightbat-Sheet 1_3: -7462022493079220268
+      Lightbat-Sheet 1_4: -4304107924392635983
+      Lightbat-Sheet 1_5: -374774264076004650
+      Lightbat-Sheet 1_6: -3154695319671978776
+      Lightbat-Sheet 1_7: 4752916837168041006
+      Lightbat-Sheet 1_8: -6295474652664469246
+      Lightbat-Sheet 1_9: 4945081640500332554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
