@@ -1,4 +1,5 @@
 using System;
+using System.Collections; // Required for Coroutines
 using UnityEngine;
 
 public abstract class TrapAbstract : MonoBehaviour, IDamageable
@@ -8,6 +9,15 @@ public abstract class TrapAbstract : MonoBehaviour, IDamageable
     private int currentHealth = 1;
     public Action OnDeath;
 
+    [Header("Decoration Settings")]
+    public Collider2D damageCollider;
+    public SpriteRenderer spriteRenderer;
+
+    [Tooltip("Set this to match the length of the trap's death animation in seconds")]
+    public float deathAnimationDuration = 0.5f;
+    public string decorationSortingLayerName = "Decore";
+    public int backgroundSortingOrder = 0;
+
     public virtual void ApplyDamage(IDamageable damageable)
     {
         damageable.TakeDamage(1);
@@ -15,6 +25,8 @@ public abstract class TrapAbstract : MonoBehaviour, IDamageable
 
     public virtual void TakeDamage(int howMuch)
     {
+        if (isDead) return;
+
         currentHealth = Mathf.Max(0, currentHealth - howMuch);
 
         if (currentHealth == 0)
@@ -27,13 +39,25 @@ public abstract class TrapAbstract : MonoBehaviour, IDamageable
     {
         isDead = true;
         OnDeath?.Invoke();
-        AnimateDeath();
-        //Destroy(gameObject);
+
+        if (damageCollider != null)
+        {
+            damageCollider.enabled = false;
+        }
+
+        StartCoroutine(DeathSequence());
     }
 
-    public void AnimateDeath()
+    private IEnumerator DeathSequence()
     {
         animator?.SetBool("IsDead", true);
-        //in animation, we need to hide the object
+
+        yield return new WaitForSeconds(deathAnimationDuration);
+
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.sortingLayerName = decorationSortingLayerName;
+            spriteRenderer.sortingOrder = backgroundSortingOrder;
+        }
     }
 }
