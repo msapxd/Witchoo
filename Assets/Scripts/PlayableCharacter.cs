@@ -1,5 +1,6 @@
 
 using System;
+using System.Collections;
 using UnityEngine;
 
 public abstract class PlayableCharacter : MonoBehaviour, IDamageable
@@ -20,7 +21,6 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
     public abstract void ApplyDamage(IDamageable damageable);
 
-
     public virtual void TakeDamage(int howMuch)
     {
         PlayerData.currentHealth =
@@ -38,8 +38,28 @@ public abstract class PlayableCharacter : MonoBehaviour, IDamageable
 
     public virtual void Die()
     {
-        // Later, LevelManager will handle game over.
+        //hand the sequence over to the Coroutine
+        StartCoroutine(DeathSequence());
+    }
+
+    private IEnumerator DeathSequence()
+    {
+        //body falling animation
         animator?.SetBool("IsDead", true);
+
+        //wait for body to hit the floor
+        yield return new WaitForSeconds(0.5f);
+
+        //spawn ghost effect at body's coordinates
+        if (VFXManager.Instance != null)
+        {
+            VFXManager.Instance.PlayVFX("Ghost", transform.position, 2.0f);
+        }
+
+        //wait for  ghost to finish floating up
+        yield return new WaitForSeconds(1.0f);
+
+        //trigger Game Over fade
         levelManager.GameOver();
     }
 
