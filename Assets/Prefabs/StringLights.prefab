@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8629672800204316283}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9979369, z: -0, w: 0.06420229}
+  m_LocalRotation: {x: 0, y: 0.99793696, z: 0, w: 0.06420136}
   m_LocalPosition: {x: 0.3, y: 3.01, z: -0.09}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 172.638, z: 0}
 --- !u!114 &2161332053854452047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StringLights
   animator: {fileID: 5883163501018467314}
+  isDead: 0
 --- !u!212 &4906057333331913707
 SpriteRenderer:
   serializedVersion: 2
@@ -94,7 +95,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1067505719
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3093646316574268783, guid: f61f05aaa4d584d88b09fcd094fb43e2, type: 3}
@@ -117,7 +118,7 @@ Animator:
   m_GameObject: {fileID: 8629672800204316283}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51afe9521b1fb324391874ce5afee5f1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -167,7 +168,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.35, y: 0.24}
+    oldSize: {x: 0.34, y: 0.24}
     newSize: {x: 0.27, y: 0.49}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
