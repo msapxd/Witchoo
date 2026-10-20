@@ -12,7 +12,7 @@ public class Cat : PlayableCharacter
         if (damageable is Pumpkin)
        {
             damageable.TakeDamage(1);
-            animator?.SetBool("IsAttacking", true);
+            animator?.SetTrigger("IsAttacking");
             Debug.Log("Cat lights up the pumpkin!");
        }
     }

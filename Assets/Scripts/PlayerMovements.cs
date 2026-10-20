@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     [SerializeField] private Animator animator;
     private Vector3 baseScale;
-    public bool isDialogueActive = false;
+    private bool wasAttacking = false;
 
     void Start()
     {
@@ -18,9 +18,28 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (DialogueManager.isActive || animator == null || !animator.gameObject.activeInHierarchy)
+        bool isAttacking = animator != null && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack");
+
+        if (wasAttacking && !isAttacking)
+        {
+            //if you are still holding movement keys when the attack ends, force the walk state on!
+            bool isHoldingKey = moveInput != Vector2.zero;
+            if (animator != null)
+            {
+                animator.SetBool("IsWalking", isHoldingKey);
+            }
+        }
+        wasAttacking = isAttacking;
+
+        //if dialogue, death, or attack is active, freeze position AND force the walking animation off!
+        if (DialogueManager.isActive || animator == null || !animator.gameObject.activeInHierarchy || animator.GetBool("IsDead") || isAttacking)
         {
             rb.linearVelocity = Vector2.zero;
+
+            if (animator != null)
+            {
+                animator.SetBool("IsWalking", false);
+            }
             return;
         }
 
@@ -38,17 +57,22 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
-        if (DialogueManager.isActive)
+        bool isAttacking = animator != null && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack");
+        if (DialogueManager.isActive || (animator != null && animator.GetBool("IsDead")) || isAttacking)
         {
             moveInput = Vector2.zero;
+
             if (animator != null) animator.SetBool("IsWalking", false);
             return;
         }
+
         moveInput = context.ReadValue<Vector2>();
+
         if (animator == null || !animator.gameObject.activeInHierarchy)
         {
             return;
         }
+
         animator.SetBool("IsWalking", true);
         if (context.canceled)
         {
@@ -56,7 +80,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("LastInputX", moveInput.x);
             animator.SetFloat("LastInputY", moveInput.y);
         }
-        moveInput = context.ReadValue<Vector2>();
         animator.SetFloat("InputX", moveInput.x);
         animator.SetFloat("InputY", moveInput.y);
     }
@@ -64,10 +87,10 @@ public class PlayerMovement : MonoBehaviour
     public void SetAnimator(Animator newAnimator)
     {
         animator = newAnimator;
+
         if (animator != null)
         {
             bool isMoving = moveInput != Vector2.zero;
-
             animator.SetBool("IsWalking", isMoving);
             animator.SetFloat("InputX", moveInput.x);
             animator.SetFloat("InputY", moveInput.y);

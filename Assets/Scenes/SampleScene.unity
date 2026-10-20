@@ -794,26 +794,77 @@ MonoBehaviour:
   - speakerName: Witch
     text: This is an example sentence. Press any key to advance.
     portrait: {fileID: 785852524366872568, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - speakerName: Witch
     text: I can ask you a question?
     portrait: {fileID: 785852524366872568, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - speakerName: Witch
     text: And I can make a statement.
     portrait: {fileID: 785852524366872568, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - speakerName: Witch
     text: Now I'm surprised!
     portrait: {fileID: 1819588790531360141, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - speakerName: Witch
     text: 'And this is a long paragraph to see how everything looks in the box together.
       Does it sound okay with a mix of punctuation? '
     portrait: {fileID: 785852524366872568, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - speakerName: Witch
     text: I wonder. I hope yes! I'm very excited to be speaking. This game is going
       to be so fun! Do you agree? I agree!
     portrait: {fileID: 785852524366872568, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
   - speakerName: Witch
     text: Okay bye bye now! Bye bye!
     portrait: {fileID: 785852524366872568, guid: 0698300c0e4a8e544aee05459d4b0022, type: 3}
+    showPortraitOnRight: 0
+    useSleepingCat: 0
+    voiceSound: {fileID: 0}
+    pitchMultiplier: 0
+    speedMultiplier: 0
+    soundFrequency: 0
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
+  playOnlyOnce: 1
+  dialogueID: 
 --- !u!61 &1828895138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -992,9 +1043,65 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2917855328986401684, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115687453260944563, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115687453260944563, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115687453260944563, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115687453260944563, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012620310796377742, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012620310796377742, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012620310796377742, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051539366400076935, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051539366400076935, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.28
+      objectReference: {fileID: 0}
     - target: {fileID: 4836962135336439055, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
       propertyPath: m_Name
       value: LevelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684857649263473156, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684857649263473156, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684857649263473156, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684857649263473156, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

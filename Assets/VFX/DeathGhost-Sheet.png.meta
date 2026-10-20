@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 68dea81e426a24f40afa59ee3ba8a9fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8125753521499999860
+    second: DeathGhost-Sheet_0
+  - first:
+      213: -1284175970533411622
+    second: DeathGhost-Sheet_1
+  - first:
+      213: -6993967225375988722
+    second: DeathGhost-Sheet_2
+  - first:
+      213: 5257792914988996266
+    second: DeathGhost-Sheet_3
+  - first:
+      213: 6903532236699166569
+    second: DeathGhost-Sheet_4
+  - first:
+      213: -2878976269824266684
+    second: DeathGhost-Sheet_5
+  - first:
+      213: -6586241033388871323
+    second: DeathGhost-Sheet_6
+  - first:
+      213: -2398222345905110504
+    second: DeathGhost-Sheet_7
+  - first:
+      213: -5964429612973467358
+    second: DeathGhost-Sheet_8
+  - first:
+      213: 8412606752588679039
+    second: DeathGhost-Sheet_9
+  - first:
+      213: 935361714336866862
+    second: DeathGhost-Sheet_10
+  - first:
+      213: 6435512880898124235
+    second: DeathGhost-Sheet_11
+  - first:
+      213: -3404486401595306631
+    second: DeathGhost-Sheet_12
+  - first:
+      213: -1117619793259853528
+    second: DeathGhost-Sheet_13
+  - first:
+      213: -3121066813084834455
+    second: DeathGhost-Sheet_14
+  - first:
+      213: 1628331304752067547
+    second: DeathGhost-Sheet_15
+  - first:
+      213: -5491025743961741264
+    second: DeathGhost-Sheet_16
+  - first:
+      213: -6952143650868065263
+    second: DeathGhost-Sheet_17
+  - first:
+      213: 4651169598561304046
+    second: DeathGhost-Sheet_18
+  - first:
+      213: -3190486618092129509
+    second: DeathGhost-Sheet_19
+  - first:
+      213: 745087636931273704
+    second: DeathGhost-Sheet_20
+  - first:
+      213: -2339673984092197915
+    second: DeathGhost-Sheet_21
+  - first:
+      213: 624757325451310685
+    second: DeathGhost-Sheet_22
+  - first:
+      213: -6765296474603732056
+    second: DeathGhost-Sheet_23
+  - first:
+      213: 5991576108226726905
+    second: DeathGhost-Sheet_24
+  - first:
+      213: -6985313951355215374
+    second: DeathGhost-Sheet_25
+  - first:
+      213: 3380969096493434758
+    second: DeathGhost-Sheet_26
+  - first:
+      213: 4728674761979163648
+    second: DeathGhost-Sheet_27
+  - first:
+      213: -8061906790130143544
+    second: DeathGhost-Sheet_28
+  - first:
+      213: 8286475352116994756
+    second: DeathGhost-Sheet_29
+  - first:
+      213: 1608656439035077725
+    second: DeathGhost-Sheet_30
+  - first:
+      213: 2750330401034982754
+    second: DeathGhost-Sheet_31
+  - first:
+      213: 2512560124052307744
+    second: DeathGhost-Sheet_32
+  - first:
+      213: -3768569535536499012
+    second: DeathGhost-Sheet_33
+  - first:
+      213: 6807418652433393852
+    second: DeathGhost-Sheet_34
+  - first:
+      213: 4180122130865097908
+    second: DeathGhost-Sheet_35
+  - first:
+      213: 4639473499116295013
+    second: DeathGhost-Sheet_36
+  - first:
+      213: -9103931410411425812
+    second: DeathGhost-Sheet_37
+  - first:
+      213: -4165985758802368072
+    second: DeathGhost-Sheet_38
+  - first:
+      213: 6786888507576138082
+    second: DeathGhost-Sheet_39
+  - first:
+      213: 6478972666697666995
+    second: DeathGhost-Sheet_40
+  - first:
+      213: 7697333902787455653
+    second: DeathGhost-Sheet_41
+  - first:
+      213: -5114058683251651869
+    second: DeathGhost-Sheet_42
+  - first:
+      213: 453742887125963105
+    second: DeathGhost-Sheet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81fc9a69368b3f80800000000000000
+      internalID: -8125753521499999860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e046db83ddf60fe90800000000000000
+      internalID: -6993967225375988722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22955ee2ed61a3da0800000000000000
+      internalID: -5964429612973467358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9226d4ed88f4950800000000000000
+      internalID: 6435512880898124235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8290dcc28ba6d70f0800000000000000
+      internalID: -1117619793259853528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ce554b65be6c84da7245cc5112ccdc
+      internalID: -1284175970533411622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d0ab051a4b23044b41dfbab6807f9f
+      internalID: 5257792914988996266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfe29123224a3e4d8e54bea078cbb41
+      internalID: 6903532236699166569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5980c5413ce35c842aa7b26c3414f69f
+      internalID: -2878976269824266684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36140961689614141abe1b19d498f233
+      internalID: -6586241033388871323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa519b3e407d7864193804da6ae88b6c
+      internalID: -2398222345905110504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af02c39f9bfcd949a583a7a8180e85d
+      internalID: 8412606752588679039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920fa21092d6f1c4bb0f8509e9fc2080
+      internalID: 935361714336866862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8909918a2e97249ada53a8df0265eb
+      internalID: -3404486401595306631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathGhost-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7505c77592eaa2342924fc12cd80a062
+      internalID: -3121066813084834455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f37cbcca8955d7349834d48ded986ac9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DeathGhost-Sheet_0: -8125753521499999860
+      DeathGhost-Sheet_1: -1284175970533411622
+      DeathGhost-Sheet_10: 935361714336866862
+      DeathGhost-Sheet_11: 6435512880898124235
+      DeathGhost-Sheet_12: -3404486401595306631
+      DeathGhost-Sheet_13: -1117619793259853528
+      DeathGhost-Sheet_14: -3121066813084834455
+      DeathGhost-Sheet_2: -6993967225375988722
+      DeathGhost-Sheet_3: 5257792914988996266
+      DeathGhost-Sheet_4: 6903532236699166569
+      DeathGhost-Sheet_5: -2878976269824266684
+      DeathGhost-Sheet_6: -6586241033388871323
+      DeathGhost-Sheet_7: -2398222345905110504
+      DeathGhost-Sheet_8: -5964429612973467358
+      DeathGhost-Sheet_9: 8412606752588679039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

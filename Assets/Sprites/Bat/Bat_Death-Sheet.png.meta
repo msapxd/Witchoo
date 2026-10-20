@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 0aa51e477fe414f42b135e2871f2e0d4
+guid: bceef04c5ebb79d429f7e33b42ec93bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5349078385202806204
-    second: Bat_Hit_1_0
+      213: -6196168419193624662
+    second: Bat_Death-Sheet_0
+  - first:
+      213: 4676468886877413560
+    second: Bat_Death-Sheet_1
+  - first:
+      213: -9054679664809112164
+    second: Bat_Death-Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat_Hit_1_0
+      name: Bat_Death-Sheet_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 33
-        height: 23
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 442444e9c8144c5b0800000000000000
-      internalID: -5349078385202806204
+      spriteID: aa76875c6a9c20aa0800000000000000
+      internalID: -6196168419193624662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0ae75fca726e040800000000000000
+      internalID: 4676468886877413560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d891091d0575280800000000000000
+      internalID: -9054679664809112164
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e82542c2c731fd84697fdcf23dfa6e8f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bat_Hit_1_0: -5349078385202806204
+      Bat_Death-Sheet_0: -6196168419193624662
+      Bat_Death-Sheet_1: 4676468886877413560
+      Bat_Death-Sheet_2: -9054679664809112164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
