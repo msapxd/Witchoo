@@ -4,7 +4,6 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 
-// Keep this struct outside the class so other scripts can use it
 [System.Serializable]
 public struct DialogueLine
 {
@@ -12,15 +11,40 @@ public struct DialogueLine
     [TextArea]
     public string text;
     public Sprite portrait;
+
+    [Header("Right Side Only (Cat/Bat)")]
+    public bool showPortraitOnRight;
+    public bool useSleepingCat;
+    public AudioClip voiceSound;
+    [Range(0.1f, 3f)] public float pitchMultiplier;
+    [Range(0.1f, 3f)] public float speedMultiplier;
+    [Range(0, 5)] public int soundFrequency;
+    public Color nameColor;
 }
 
 public class DialogueManager : MonoBehaviour
 {
+    public static DialogueManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     [Header("UI Settings")]
     public GameObject dialogueBox;
-    public TextMeshProUGUI nameText;
-    public TextMeshProUGUI dialogueText;
-    public Image portraitUI;
+
+    [Header("Left Side UI (Witch)")]
+    public Image leftPortraitUI;
+    public TextMeshProUGUI leftNameText;
+    public TextMeshProUGUI leftDialogueText;
+    public Color witchNameColor = Color.white;
+
+    [Header("Right Side UI (Cat/Bat)")]
+    public Image rightPortraitUI;
+    public GameObject sleepingCatPortraitUI;
+    public TextMeshProUGUI rightNameText;
+    public TextMeshProUGUI rightDialogueText;
 
     [Header("Typing Settings")]
     public float typingSpeed = 0.025f;
@@ -28,28 +52,24 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Audio Settings")]
     public AudioSource audioSource;
-    public AudioClip typingSound;
+    public AudioClip witchTypingSound;
     [Range(1, 5)] public int playSoundEvery = 2;
     [Range(0.5f, 2f)] public float minPitch = 0.95f;
     [Range(0.5f, 2f)] public float maxPitch = 1.05f;
 
     [Header("Pitch Drift Settings")]
-    [Tooltip("How much the pitch changes over a normal sentence")]
     public float defaultDrift = 0f;
-    [Tooltip("How much the pitch changes for a question")]
     public float questionDrift = 0.15f;
-    [Tooltip("How much the pitch changes for an exclamation")]
     public float exclamationDrift = 0.1f;
-    [Tooltip("Pops the starting pitch up for exclamations")]
     public float exclamationStartBoost = 0.05f;
 
     private DialogueLine[] currentLines;
     private int currentLineIndex = 0;
     private Coroutine typingCoroutine;
     private bool isTyping = false;
-    private Animator currentSpeakerAnimator;
     public static bool isActive = false;
 
+    private TextMeshProUGUI activeDialogueText;
 
     void Start()
     {
@@ -69,7 +89,8 @@ public class DialogueManager : MonoBehaviour
             if (isTyping)
             {
                 StopCoroutine(typingCoroutine);
-                dialogueText.text = "  " + currentLines[currentLineIndex].text;
+                // THE FIX: Instantly reveal all characters, including parsed rich text
+                activeDialogueText.maxVisibleCharacters = 99999;
                 isTyping = false;
             }
             else
@@ -88,13 +109,10 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Other scripts will call this function to pass in their specific lines
-    public void StartDialogue(DialogueLine[] lines, Animator speakerAnimator = null)
+    public void StartDialogue(DialogueLine[] lines)
     {
         isActive = true;
-
         currentLines = lines;
-        currentSpeakerAnimator = speakerAnimator;
         currentLineIndex = 0;
 
         dialogueBox.SetActive(true);
@@ -105,51 +123,112 @@ public class DialogueManager : MonoBehaviour
     {
         DialogueLine line = currentLines[currentLineIndex];
 
-        nameText.text = line.speakerName;
-        portraitUI.sprite = line.portrait;
+        if (line.showPortraitOnRight)
+        {
+            leftPortraitUI.gameObject.SetActive(false);
+            leftNameText.gameObject.SetActive(false);
+            leftDialogueText.gameObject.SetActive(false);
 
+            rightNameText.gameObject.SetActive(true);
+            rightDialogueText.gameObject.SetActive(true);
 
-        typingCoroutine = StartCoroutine(TypeSentence(line.text));
+            if (line.useSleepingCat)
+            {
+                rightPortraitUI.gameObject.SetActive(false);
+                sleepingCatPortraitUI.SetActive(true);
+            }
+            else
+            {
+                sleepingCatPortraitUI.SetActive(false);
+                rightPortraitUI.gameObject.SetActive(true);
+                rightPortraitUI.sprite = line.portrait;
+            }
+
+            rightNameText.text = line.speakerName;
+            rightNameText.color = line.nameColor.a == 0f ? Color.white : line.nameColor;
+            activeDialogueText = rightDialogueText;
+        }
+        else
+        {
+            rightPortraitUI.gameObject.SetActive(false);
+            sleepingCatPortraitUI.SetActive(false);
+            rightNameText.gameObject.SetActive(false);
+            rightDialogueText.gameObject.SetActive(false);
+
+            leftPortraitUI.gameObject.SetActive(true);
+            leftNameText.gameObject.SetActive(true);
+            leftDialogueText.gameObject.SetActive(true);
+
+            leftPortraitUI.sprite = line.portrait;
+            leftNameText.text = line.speakerName;
+            leftNameText.color = witchNameColor;
+            activeDialogueText = leftDialogueText;
+        }
+
+        typingCoroutine = StartCoroutine(TypeSentence(line));
     }
 
-    IEnumerator TypeSentence(string sentence)
+    IEnumerator TypeSentence(DialogueLine line)
     {
         isTyping = true;
-        dialogueText.text = "  ";
+
+        // THE FIX: Push the full sentence to TMP instantly so it calculates the tags
+        string sentence = "  " + line.text;
+        activeDialogueText.text = sentence;
+        activeDialogueText.maxVisibleCharacters = 0; // Hide it all
+        activeDialogueText.ForceMeshUpdate(); // Force TMP to read the tags right now
 
         bool lastCharWasPunctuation = false;
         int charCount = 0;
 
-        string trimmedSentence = sentence.TrimEnd();
+        string trimmedSentence = line.text.TrimEnd();
         bool isQuestion = trimmedSentence.EndsWith("?");
         bool isExclamation = trimmedSentence.EndsWith("!");
 
-        float basePitch = (minPitch + maxPitch) / 2f;
+        float pMultiplier = 1f;
+        float sMultiplier = 1f;
+        int currentSoundFreq = playSoundEvery;
+        AudioClip currentVoice = witchTypingSound;
+
+        if (line.showPortraitOnRight)
+        {
+            pMultiplier = line.pitchMultiplier == 0f ? 1f : line.pitchMultiplier;
+            sMultiplier = line.speedMultiplier == 0f ? 1f : line.speedMultiplier;
+            if (line.soundFrequency > 0) currentSoundFreq = line.soundFrequency;
+            if (line.voiceSound != null) currentVoice = line.voiceSound;
+        }
+
+        float basePitch = ((minPitch + maxPitch) / 2f) * pMultiplier;
         float pitchVariance = (maxPitch - minPitch) / 2f;
 
-        // Determine the total drift based on the punctuation
         float maxDrift = defaultDrift;
         if (isQuestion) maxDrift = questionDrift;
         else if (isExclamation) maxDrift = exclamationDrift;
         if (isExclamation) basePitch += exclamationStartBoost;
 
-        float pitchStep = maxDrift / Mathf.Max(1, sentence.Length);
+        float pitchStep = maxDrift / Mathf.Max(1, line.text.Length);
         float currentPitch = basePitch;
 
+        float currentTypingSpeed = typingSpeed / sMultiplier;
+        float currentPunctuationPause = punctuationPause / sMultiplier;
 
-        foreach (char letter in sentence.ToCharArray())
+        // THE FIX: Loop through the visible characters, completely ignoring the hidden < > tags
+        int totalVisibleCharacters = activeDialogueText.textInfo.characterCount;
+
+        for (int i = 0; i < totalVisibleCharacters; i++)
         {
-            dialogueText.text += letter;
+            activeDialogueText.maxVisibleCharacters = i + 1;
+            char letter = activeDialogueText.textInfo.characterInfo[i].character;
 
-            if (letter != ' ' && typingSound != null)
+            if (letter != ' ' && currentVoice != null)
             {
                 charCount++;
                 currentPitch += pitchStep;
 
-                if (charCount % playSoundEvery == 0)
+                if (charCount % currentSoundFreq == 0)
                 {
                     audioSource.pitch = currentPitch + Random.Range(-pitchVariance, pitchVariance);
-                    audioSource.PlayOneShot(typingSound);
+                    audioSource.PlayOneShot(currentVoice);
                 }
             }
 
@@ -157,11 +236,11 @@ public class DialogueManager : MonoBehaviour
 
             if (isPunctuation && !lastCharWasPunctuation)
             {
-                yield return new WaitForSeconds(punctuationPause);
+                yield return new WaitForSeconds(currentPunctuationPause);
             }
             else
             {
-                yield return new WaitForSeconds(typingSpeed);
+                yield return new WaitForSeconds(currentTypingSpeed);
             }
 
             lastCharWasPunctuation = isPunctuation;
