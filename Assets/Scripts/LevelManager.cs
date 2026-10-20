@@ -44,7 +44,7 @@ public class LevelManager : MonoBehaviour
     public void YouWin()
     {
         string currentScene = SceneManager.GetActiveScene().name;
-        if (currentScene == "Level3")
+        if (currentScene == "Level1")
         {
             youWin.SetActive(true);
         }
