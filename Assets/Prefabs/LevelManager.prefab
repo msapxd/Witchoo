@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   gameOver: {fileID: 2006752009044178915}
+  levelMusic: {fileID: 0}
   youWin: {fileID: 6895577928069505564}
   trapsList: []
   door: {fileID: 0}
@@ -341,23 +342,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4639534285133292034, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.1698847
+      value: 4.891485
       objectReference: {fileID: 0}
     - target: {fileID: 4639534285133292034, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5.1698847
+      value: 4.891485
       objectReference: {fileID: 0}
     - target: {fileID: 4639534285133292034, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5.1698847
+      value: 4.891485
       objectReference: {fileID: 0}
     - target: {fileID: 4639534285133292034, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0684
+      value: 0.0135
       objectReference: {fileID: 0}
     - target: {fileID: 4639534285133292034, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53
+      value: -0.6163
       objectReference: {fileID: 0}
     - target: {fileID: 5157947527334576257, guid: 02ca93f672b2a4a32aabd98da939b8da, type: 3}
       propertyPath: healthView
