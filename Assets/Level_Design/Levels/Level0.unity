@@ -3656,7 +3656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1206026459916132465, guid: 48244b7de50a9d0448b0a19b322b3016, type: 3}
       propertyPath: sceneDialogue.Array.data[0].text
-      value: Alrighty, let's get these vines out of the way!
+      value: Let's get these vines out of the way!
       objectReference: {fileID: 0}
     - target: {fileID: 1206026459916132465, guid: 48244b7de50a9d0448b0a19b322b3016, type: 3}
       propertyPath: sceneDialogue.Array.data[1].text
@@ -5657,7 +5657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1206026459916132465, guid: 48244b7de50a9d0448b0a19b322b3016, type: 3}
       propertyPath: sceneDialogue.Array.data[2].soundFrequency
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1206026459916132465, guid: 48244b7de50a9d0448b0a19b322b3016, type: 3}
       propertyPath: sceneDialogue.Array.data[2].useSleepingCat
@@ -5701,7 +5701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1206026459916132465, guid: 48244b7de50a9d0448b0a19b322b3016, type: 3}
       propertyPath: sceneDialogue.Array.data[2].speedMultiplier
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1206026459916132465, guid: 48244b7de50a9d0448b0a19b322b3016, type: 3}
       propertyPath: sceneDialogue.Array.data[3].pitchMultiplier
@@ -6510,7 +6510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 772823884110529950, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1062910695251718095, guid: ab8f57fc82f3948e4b4fb3715c213f86, type: 3}
       propertyPath: m_IsActive
