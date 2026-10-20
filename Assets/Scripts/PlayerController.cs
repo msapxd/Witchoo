@@ -7,6 +7,11 @@ using UnityEngine.VFX;
 
 public class PlayerController : MonoBehaviour
 {
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     public HealthView healthView;
     public PlayableCharacter[] characters;
     public PlayerMovement playerMovement;
@@ -45,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if (playEffect)
         {
             VFXManager.Instance.PlayVFX("Poof", transform.position, 0.5f, transform);
+            audioManager.PlaySfx(audioManager.switchCharacter);
             StartCoroutine(DelayedSwap(characterIndex));
         }
         else
@@ -83,6 +89,7 @@ public class PlayerController : MonoBehaviour
             {
                 PlayerData.currentHealth++;
                 VFXManager.Instance.PlayVFX("Heal", transform.position, 1.0f, transform);
+                audioManager.PlaySfx(audioManager.potionPickUp);
                 Destroy(other.gameObject);
             }
         }
@@ -97,6 +104,7 @@ public class PlayerController : MonoBehaviour
         {
             characters[currentCharacter].ApplyDamage(trapAbstract);
             trapAbstract.ApplyDamage(characters[currentCharacter]);
+            
         }
 
         healthView.UpdateHealth();

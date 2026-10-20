@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class Cat : PlayableCharacter
 {
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     public override void SpecialAbility()
     {
         
@@ -13,6 +18,7 @@ public class Cat : PlayableCharacter
        {
             damageable.TakeDamage(1);
             animator?.SetBool("IsAttacking", true);
+            audioManager.PlaySfx(audioManager.catMeow);
             Debug.Log("Cat lights up the pumpkin!");
        }
     }

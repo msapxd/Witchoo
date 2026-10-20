@@ -3,6 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    AudioManager audioManager;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 moveInput;
@@ -50,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         animator.SetBool("IsWalking", true);
+        //audioManager.PlaySfx(audioManager.witchWalk);
         if (context.canceled)
         {
             animator.SetBool("IsWalking", false);
