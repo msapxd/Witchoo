@@ -17,7 +17,7 @@ public class Bat : PlayableCharacter
         if (damageable is StringLights)
         {
             damageable.TakeDamage(1);
-            animator?.SetBool("IsAttacking", true);
+            animator?.SetTrigger("IsAttacking");
             audioManager.PlaySfx(audioManager.batShreik);
             Debug.Log("Bat hangs lights!");
         }

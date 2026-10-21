@@ -16,10 +16,10 @@ public class Witch : PlayableCharacter
     {
         if (damageable is Vines)
        {
-             damageable.TakeDamage(1);
-            animator?.SetBool("IsAttacking", true);
+            damageable.TakeDamage(1);
+            animator?.SetTrigger("IsAttacking");
             audioManager.PlaySfx(audioManager.witchWand);
             Debug.Log("Witch uses magic!");
-       }
+        }
     }
 }

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0aa51e477fe414f42b135e2871f2e0d4
+guid: 854be315ffb491441b43d7b4f00d27bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5349078385202806204
-    second: Bat_Hit_1_0
+      213: -9087179301442847284
+    second: LightFlicker-Sheet_0
+  - first:
+      213: -2251547524416249087
+    second: LightFlicker-Sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat_Hit_1_0
+      name: LightFlicker-Sheet_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 33
-        height: 23
+        x: 0
+        y: 0
+        width: 71
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 442444e9c8144c5b0800000000000000
-      internalID: -5349078385202806204
+      spriteID: ccd773f329ad3e180800000000000000
+      internalID: -9087179301442847284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightFlicker-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103624ca475e0c0e0800000000000000
+      internalID: -2251547524416249087
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5d4d59a7e0e54d948964934628149f83
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +158,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":71.0,"y":65.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Bat_Hit_1_0: -5349078385202806204
+      LightFlicker-Sheet_0: -9087179301442847284
+      LightFlicker-Sheet_1: -2251547524416249087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

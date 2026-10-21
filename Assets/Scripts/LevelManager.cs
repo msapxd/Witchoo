@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public GameObject gameOver;
+    public GameObject levelMusic;
     public GameObject youWin;
     public TrapAbstract[] trapsList;
     public Door door;
@@ -34,6 +35,7 @@ public class LevelManager : MonoBehaviour
     public void GameOver()
     {
         gameOver.SetActive(true);
+        levelMusic.SetActive(false);
     }
 
     public void LostLife()
@@ -44,7 +46,7 @@ public class LevelManager : MonoBehaviour
     public void YouWin()
     {
         string currentScene = SceneManager.GetActiveScene().name;
-        if (currentScene == "Level3")
+        if (currentScene == "Level1")
         {
             youWin.SetActive(true);
         }
