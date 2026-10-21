@@ -45,5 +45,9 @@ public class AudioManager : MonoBehaviour
         musicSource.loop = true;
         musicSource.Play();
     }
+    public void SwitchMusic(bool isOn)
+    {
+        musicSource.gameObject.SetActive(isOn);
+    }
 }
 

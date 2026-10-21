@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         StartCoroutine(DelayedGetAllTraps());
+        FindAnyObjectByType<AudioManager>()?.SwitchMusic(true);
     }
 
     private void OnTrapDied()
@@ -35,7 +36,8 @@ public class LevelManager : MonoBehaviour
     public void GameOver()
     {
         gameOver.SetActive(true);
-        levelMusic.SetActive(false);
+        //levelMusic.SetActive(false);
+        FindAnyObjectByType<AudioManager>()?.SwitchMusic(false);
     }
 
     public void LostLife()
